@@ -1,0 +1,66 @@
+/* #video-container {
+  width: 100%;
+
+}
+
+.md-video{width: 100%;}
+#remote, #local {
+  width: 240px;
+  height: 240px;
+  margin: 45px auto;
+}
+
+#remote {
+  background-color: blue;
+}
+
+#local {
+  background-color: red;
+}
+
+#remote p, #local p {
+  text-align: center;
+  color: white;
+}
+
+input {
+  display: block;
+  width: 50%;
+  margin: auto;
+  padding: 2px;
+  margin-top: 7px;
+} */
+
+
+
+:host {
+  display: block;
+}
+#picture-in-picture {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+#remote {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+}
+#remote video,
+#local video {
+  width: 100%;
+}
+#local {
+  position: absolute;
+  width: 25%;
+  bottom: 5%;
+  right: 5%;
+}
+#hangup {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}

@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+
+video , .md-video{width: 100%;}
+#remote video { 
+  object-fit:cover;height: 100vh;
+}
